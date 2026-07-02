@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+.nix-profile/
+.nix-defexpr/
+.nix-channels/
