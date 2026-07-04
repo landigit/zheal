@@ -1,7 +1,54 @@
+# Dependency directories
 node_modules/
+jspm_packages/
+.npm/
+pnpm-debug.log
+
+# Build and distribution directories
 dist/
 dist-frontend/
+build/
+web-build/
+out/
+
+# Expo & React Native files
+.expo/
+expo-env.d.ts
+ios/
+android/
+
+# Dart and Flutter residue files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.cproject
+.settings/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local env files
+.env*.local
+.env
+
+# Nix and Direnv
 .nix-profile/
 .nix-defexpr/
 .nix-channels/
+.direnv/

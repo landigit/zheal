@@ -36,8 +36,12 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-example
-
 # generated native folders
 /ios
 /android
+
+# Dart & Flutter residues
+.dart_tool/
+build/
+.packages
+pubspec.lock
