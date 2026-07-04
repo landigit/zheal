@@ -23,14 +23,17 @@
             pnpm_10
             pythonEnv
             poppler-utils   # pdfimages, pdfinfo, pdftotext CLI tools
+            flutter
           ];
 
           shellHook = ''
+            export CHROME_EXECUTABLE="/mnt/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
             echo "zheal dev environment ready!"
             echo "  node:    $(node --version)"
             echo "  pnpm:    $(pnpm --version)"
             echo "  python:  $(python3 --version)"
             echo "  pdfinfo: $(pdfinfo --version 2>&1 | head -1)"
+            echo "  flutter: $(flutter --version | head -1)"
           '';
         };
       }

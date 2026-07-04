@@ -1,6 +1,0 @@
-dist/
-dist-frontend/
-node_modules/
-pnpm-lock.yaml
-flake.lock
-*.csv
