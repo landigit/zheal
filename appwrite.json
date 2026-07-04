@@ -1,0 +1,21 @@
+{
+  "projectId": "zheal",
+  "projectName": "zheal",
+  "functions": [
+    {
+      "$id": "search",
+      "name": "Search",
+      "runtime": "node-21.0",
+      "path": "functions/search",
+      "entrypoint": "src/main.ts",
+      "execute": [
+        "any"
+      ],
+      "events": [],
+      "schedule": "",
+      "timeout": 15,
+      "enabled": true,
+      "logging": true
+    }
+  ]
+}
